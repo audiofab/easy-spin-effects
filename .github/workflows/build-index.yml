@@ -1,0 +1,31 @@
+name: Build effects index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'effects/**'
+      - 'scripts/**'
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - run: npm run build-index
+
+      - name: Commit updated index.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate effects/index.json [skip ci]"
+          file_pattern: effects/index.json

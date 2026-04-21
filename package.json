@@ -1,0 +1,14 @@
+{
+  "name": "easy-spin-effects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A database of great-sounding effects ready to execute on Audiofab's Easy Spin pedal",
+  "scripts": {
+    "build-index": "tsx scripts/build-index.ts"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
