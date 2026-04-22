@@ -1,0 +1,13 @@
+{
+  "id": "diagram-volume-test",
+  "name": "Diagram Volume Test",
+  "version": "1.0.0",
+  "description": "Simple pot-controlled stereo volume built as a block diagram. Used to verify .spndiagram support in the web app.",
+  "category": "Test",
+  "tags": ["test", "diagram", "volume"],
+  "author": "Audiofab",
+  "hasSource": true,
+  "controls": [
+    { "pot": 0, "name": "Volume", "description": "Output level (stereo).", "unit": "", "range": [0, 1] }
+  ]
+}

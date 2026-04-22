@@ -1,10 +1,11 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-04-22T03:57:46.257Z",
+  "generatedAt": "2026-04-22T11:21:51.021Z",
   "categories": [
     "Delay",
     "Pitch / Chorus",
-    "Reverb"
+    "Reverb",
+    "Test"
   ],
   "effects": [
     {
@@ -1241,6 +1242,65 @@
       "file": "three-tap-reverb",
       "format": "spn",
       "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/three-tap-reverb.spn"
+    },
+    {
+      "id": "diagram-volume-test",
+      "name": "Diagram Volume Test",
+      "version": "1.0.0",
+      "description": "Simple pot-controlled stereo volume built as a block diagram. Used to verify .spndiagram support in the web app.",
+      "category": "Test",
+      "tags": [
+        "test",
+        "diagram",
+        "volume"
+      ],
+      "author": "Audiofab",
+      "hasSource": true,
+      "controls": [
+        {
+          "pot": 0,
+          "name": "Volume",
+          "description": "Output level (stereo).",
+          "unit": "",
+          "range": [
+            0,
+            1
+          ]
+        }
+      ],
+      "directoryPath": "effects/test",
+      "file": "diagram-volume-test",
+      "format": "spndiagram",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/test/diagram-volume-test.spndiagram"
+    },
+    {
+      "id": "hex-slot3-test",
+      "name": "HEX Slot 3 Test",
+      "version": "1.0.0",
+      "description": "A pot-controlled stereo volume program shipped as an Intel HEX file built for slot 3. Verifies .hex parsing and that source-slot is decoupled from destination-slot at write time.",
+      "category": "Test",
+      "tags": [
+        "test",
+        "hex"
+      ],
+      "author": "Audiofab",
+      "hasSource": true,
+      "controls": [
+        {
+          "pot": 0,
+          "name": "Volume",
+          "description": "Output level (stereo).",
+          "unit": "",
+          "range": [
+            0,
+            1
+          ]
+        }
+      ],
+      "directoryPath": "effects/test",
+      "file": "hex-slot3-test",
+      "format": "hex",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/test/hex-slot3-test.hex"
     }
   ]
 }

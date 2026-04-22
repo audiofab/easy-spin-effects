@@ -1,0 +1,13 @@
+{
+  "id": "hex-slot3-test",
+  "name": "HEX Slot 3 Test",
+  "version": "1.0.0",
+  "description": "A pot-controlled stereo volume program shipped as an Intel HEX file built for slot 3. Verifies .hex parsing and that source-slot is decoupled from destination-slot at write time.",
+  "category": "Test",
+  "tags": ["test", "hex"],
+  "author": "Audiofab",
+  "hasSource": true,
+  "controls": [
+    { "pot": 0, "name": "Volume", "description": "Output level (stereo).", "unit": "", "range": [0, 1] }
+  ]
+}
