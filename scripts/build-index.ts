@@ -35,14 +35,20 @@ interface EffectMeta {
   controls: EffectControl[];
 }
 
+type SourceFormat = "spn" | "hex" | "spndiagram";
+
 interface IndexEntry extends EffectMeta {
   /** Relative directory path from the repo root, e.g. "effects/delay" */
   directoryPath: string;
-  /** Base filename of the .json file (without extension), e.g. "digital-delay" */
+  /** Base filename of the source (without extension), e.g. "digital-delay" */
   file: string;
-  /** URL to the .spn source on GitHub, e.g. "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/spring-reverb.spn" */
+  /** Source format, detected from the file on disk. */
+  format: SourceFormat;
+  /** URL to the source on GitHub, using the correct extension for the format. */
   sourceUrl: string;
 }
+
+const SOURCE_FORMATS: SourceFormat[] = ["spn", "hex", "spndiagram"];
 
 interface EffectIndex {
   version: string;
@@ -125,22 +131,32 @@ function buildIndex(): void {
     const dirPath = dirname(relPath); // e.g. "effects/delay"
     const file = basename(relPath, ".json"); // e.g. "digital-delay"
 
-    // Check that the .spn source exists if hasSource is true
-    if (meta.hasSource) {
-      const spnPath = resolve(dirname(absPath), `${file}.spn`);
-      if (!existsSync(spnPath)) {
-        console.warn(
-          `  ⚠ ${relPath} — hasSource is true but ${file}.spn not found`
-        );
+    // Detect source format by looking for .spn / .hex / .spndiagram next to the .json.
+    // First match wins, in declared priority order.
+    let format: SourceFormat | undefined;
+    for (const ext of SOURCE_FORMATS) {
+      if (existsSync(resolve(dirname(absPath), `${file}.${ext}`))) {
+        format = ext;
+        break;
       }
     }
 
-    const sourceUrl = `${GITHUB_BLOB_BASE}/${dirPath}/${file}.spn`;
+    if (meta.hasSource && !format) {
+      console.warn(
+        `  ⚠ ${relPath} — hasSource is true but no .spn, .hex, or .spndiagram source found`
+      );
+    }
+
+    // Fall back to 'spn' when no source file exists so the type stays satisfied;
+    // the entry will be flagged by the warning above.
+    const resolvedFormat: SourceFormat = format ?? "spn";
+    const sourceUrl = `${GITHUB_BLOB_BASE}/${dirPath}/${file}.${resolvedFormat}`;
 
     const entry: IndexEntry = {
       ...(meta as unknown as EffectMeta),
       directoryPath: dirPath,
       file,
+      format: resolvedFormat,
       sourceUrl,
     };
 
