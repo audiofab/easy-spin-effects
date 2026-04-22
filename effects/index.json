@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-04-21T01:44:29.743Z",
+  "generatedAt": "2026-04-22T00:31:40.717Z",
   "categories": [
     "Delay",
     "Pitch / Chorus",
@@ -21,7 +21,7 @@
         "thickener"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -55,7 +55,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "automatic-double-tracker"
+      "file": "automatic-double-tracker",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/automatic-double-tracker.spn"
     },
     {
       "id": "delay-chorus-reverb",
@@ -72,7 +73,7 @@
         "multi-tap"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -106,7 +107,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "delay-chorus-reverb"
+      "file": "delay-chorus-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/delay-chorus-reverb.spn"
     },
     {
       "id": "digital-delay",
@@ -120,7 +122,7 @@
         "echo"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -154,7 +156,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "digital-delay"
+      "file": "digital-delay",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/digital-delay.spn"
     },
     {
       "id": "eight-tap-delay",
@@ -170,7 +173,7 @@
         "modulated"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -204,7 +207,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "eight-tap-delay"
+      "file": "eight-tap-delay",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/eight-tap-delay.spn"
     },
     {
       "id": "mn3011-delay",
@@ -220,7 +224,7 @@
         "multi-tap"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -254,7 +258,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "mn3011-delay"
+      "file": "mn3011-delay",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/mn3011-delay.spn"
     },
     {
       "id": "modulated-delay",
@@ -269,7 +274,7 @@
         "echo"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -303,7 +308,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "modulated-delay"
+      "file": "modulated-delay",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/modulated-delay.spn"
     },
     {
       "id": "modulated-vintage-delay",
@@ -319,7 +325,7 @@
         "warm"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -353,7 +359,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "modulated-vintage-delay"
+      "file": "modulated-vintage-delay",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/modulated-vintage-delay.spn"
     },
     {
       "id": "vintage-delay",
@@ -368,7 +375,7 @@
         "warm"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -402,7 +409,8 @@
         }
       ],
       "directoryPath": "effects/delay",
-      "file": "vintage-delay"
+      "file": "vintage-delay",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/delay/vintage-delay.spn"
     },
     {
       "id": "chorus",
@@ -415,7 +423,7 @@
         "modulation"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -449,7 +457,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "chorus"
+      "file": "chorus",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/chorus.spn"
     },
     {
       "id": "fourth-fifth-chorus",
@@ -465,7 +474,7 @@
         "intervals"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -499,7 +508,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "fourth-fifth-chorus"
+      "file": "fourth-fifth-chorus",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/fourth-fifth-chorus.spn"
     },
     {
       "id": "multi-voice-chorus",
@@ -514,7 +524,7 @@
         "ensemble"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -548,7 +558,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "multi-voice-chorus"
+      "file": "multi-voice-chorus",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/multi-voice-chorus.spn"
     },
     {
       "id": "octave-chorus",
@@ -564,7 +575,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -598,7 +609,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "octave-chorus"
+      "file": "octave-chorus",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/octave-chorus.spn"
     },
     {
       "id": "octave-chorus-split",
@@ -614,7 +626,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -648,7 +660,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "octave-chorus-split"
+      "file": "octave-chorus-split",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/octave-chorus-split.spn"
     },
     {
       "id": "octave-flanger",
@@ -664,7 +677,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -698,7 +711,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "octave-flanger"
+      "file": "octave-flanger",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/octave-flanger.spn"
     },
     {
       "id": "octave-multi-chorus",
@@ -714,7 +728,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -748,7 +762,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "octave-multi-chorus"
+      "file": "octave-multi-chorus",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/octave-multi-chorus.spn"
     },
     {
       "id": "third-fifth-chorus",
@@ -764,7 +779,7 @@
         "intervals"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -798,7 +813,8 @@
         }
       ],
       "directoryPath": "effects/pitch_chorus",
-      "file": "third-fifth-chorus"
+      "file": "third-fifth-chorus",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/pitch_chorus/third-fifth-chorus.spn"
     },
     {
       "id": "cascaded-reverb",
@@ -813,7 +829,7 @@
         "experimental"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -847,7 +863,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "cascaded-reverb"
+      "file": "cascaded-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/cascaded-reverb.spn"
     },
     {
       "id": "hall-reverb",
@@ -862,7 +879,7 @@
         "spacious"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -896,7 +913,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "hall-reverb"
+      "file": "hall-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/hall-reverb.spn"
     },
     {
       "id": "mn3011-reverb",
@@ -912,7 +930,7 @@
         "vintage"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -946,7 +964,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "mn3011-reverb"
+      "file": "mn3011-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/mn3011-reverb.spn"
     },
     {
       "id": "plate-reverb",
@@ -961,7 +980,7 @@
         "dense"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -995,7 +1014,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "plate-reverb"
+      "file": "plate-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/plate-reverb.spn"
     },
     {
       "id": "room-reverb",
@@ -1009,7 +1029,7 @@
         "ambience"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1043,7 +1063,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "room-reverb"
+      "file": "room-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/room-reverb.spn"
     },
     {
       "id": "shimmer-reverb",
@@ -1059,7 +1080,7 @@
         "ethereal"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1093,7 +1114,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "shimmer-reverb"
+      "file": "shimmer-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/shimmer-reverb.spn"
     },
     {
       "id": "spring-reverb",
@@ -1108,7 +1130,7 @@
         "surf"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1142,7 +1164,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "spring-reverb"
+      "file": "spring-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/spring-reverb.spn"
     },
     {
       "id": "three-tap-reverb",
@@ -1157,7 +1180,7 @@
         "ambience"
       ],
       "author": "Audiofab",
-      "hasSource": true,
+          "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1191,7 +1214,8 @@
         }
       ],
       "directoryPath": "effects/reverb",
-      "file": "three-tap-reverb"
+      "file": "three-tap-reverb",
+      "sourceUrl": "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/three-tap-reverb.spn"
     }
   ]
 }

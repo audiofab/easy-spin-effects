@@ -30,6 +30,7 @@ interface EffectMeta {
   category: string;
   tags: string[];
   author: string;
+  license?: string;
   hasSource: boolean;
   controls: EffectControl[];
 }
@@ -39,6 +40,8 @@ interface IndexEntry extends EffectMeta {
   directoryPath: string;
   /** Base filename of the .json file (without extension), e.g. "digital-delay" */
   file: string;
+  /** URL to the .spn source on GitHub, e.g. "https://github.com/audiofab/easy-spin-effects/blob/main/effects/reverb/spring-reverb.spn" */
+  sourceUrl: string;
 }
 
 interface EffectIndex {
@@ -53,6 +56,8 @@ interface EffectIndex {
 const REPO_ROOT = resolve(__dirname, "..");
 const EFFECTS_DIR = resolve(REPO_ROOT, "effects");
 const INDEX_PATH = resolve(EFFECTS_DIR, "index.json");
+const GITHUB_BLOB_BASE =
+  "https://github.com/audiofab/easy-spin-effects/blob/main";
 
 const REQUIRED_FIELDS: (keyof EffectMeta)[] = [
   "id",
@@ -130,10 +135,13 @@ function buildIndex(): void {
       }
     }
 
+    const sourceUrl = `${GITHUB_BLOB_BASE}/${dirPath}/${file}.spn`;
+
     const entry: IndexEntry = {
       ...(meta as unknown as EffectMeta),
       directoryPath: dirPath,
       file,
+      sourceUrl,
     };
 
     entries.push(entry);
