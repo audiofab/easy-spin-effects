@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-04-22T00:31:40.717Z",
+  "generatedAt": "2026-04-22T00:58:44.782Z",
   "categories": [
     "Delay",
     "Pitch / Chorus",
@@ -21,7 +21,7 @@
         "thickener"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -73,7 +73,7 @@
         "multi-tap"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -122,7 +122,7 @@
         "echo"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -173,7 +173,7 @@
         "modulated"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -224,7 +224,7 @@
         "multi-tap"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -274,7 +274,7 @@
         "echo"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -325,7 +325,7 @@
         "warm"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -375,7 +375,7 @@
         "warm"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -423,7 +423,7 @@
         "modulation"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -474,7 +474,7 @@
         "intervals"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -524,7 +524,7 @@
         "ensemble"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -575,7 +575,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -626,7 +626,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -677,7 +677,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -728,7 +728,7 @@
         "harmony"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -779,7 +779,7 @@
         "intervals"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -829,7 +829,7 @@
         "experimental"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -879,7 +879,7 @@
         "spacious"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -930,7 +930,7 @@
         "vintage"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -979,8 +979,8 @@
         "studio",
         "dense"
       ],
-      "author": "Audiofab",
-          "hasSource": true,
+      "author": "Jon Dattorro, mdroberts1243, Audiofab",
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1029,7 +1029,7 @@
         "ambience"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1079,8 +1079,8 @@
         "ambient",
         "ethereal"
       ],
-      "author": "Audiofab",
-          "hasSource": true,
+      "author": "DrAlx, Mick Taylor, Audiofab",
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1129,8 +1129,9 @@
         "vintage",
         "surf"
       ],
-      "author": "Audiofab",
-          "hasSource": true,
+      "author": "Don Stavely, Mick Taylor, Audiofab",
+      "license": "Not for commercial use",
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
@@ -1180,7 +1181,7 @@
         "ambience"
       ],
       "author": "Audiofab",
-          "hasSource": true,
+      "hasSource": true,
       "controls": [
         {
           "pot": 0,
