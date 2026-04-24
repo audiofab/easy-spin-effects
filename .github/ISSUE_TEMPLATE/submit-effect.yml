@@ -1,0 +1,149 @@
+name: Submit an effect
+description: Submit a new effect for inclusion in the easy-spin-effects library.
+title: "[Effect] <your effect name here>"
+labels: ["effect-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to easy-spin-effects! Fill out this form and attach your `.spn`
+        source file in the **Source file** field below. An Audiofab maintainer will review the
+        submission, load it on an Easy Spin to evaluate, and merge it into the repository if
+        it sounds great.
+
+        If you'd rather open a pull request directly, see the [contribution instructions in the
+        README](../../blob/main/README.md#contributing-an-effect).
+
+  - type: input
+    id: effect-name
+    attributes:
+      label: Effect name
+      description: Display name for the effect (e.g. "Warm Plate Reverb").
+      placeholder: Warm Plate Reverb
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best describes this effect?
+      options:
+        - Delay
+        - Distortion
+        - Modulation
+        - Pitch / Chorus
+        - Reverb
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A one- or two-sentence description of what the effect does and what it sounds like.
+      placeholder: A warm plate reverb with long, musical decay and gentle high-frequency damping.
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated keywords (e.g. `reverb, plate, warm, studio`).
+      placeholder: reverb, plate, warm, studio
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author / credit
+      description: Who should be credited? Include any upstream authors whose work this builds on.
+      placeholder: Jane Doe
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License (optional)
+      description: Any licensing restrictions (e.g. "Not for commercial use"). Leave blank if none.
+      placeholder: ""
+
+  - type: input
+    id: pot0-name
+    attributes:
+      label: Pot 0 — name
+      placeholder: Reverb Time
+    validations:
+      required: true
+  - type: input
+    id: pot0-desc
+    attributes:
+      label: Pot 0 — description
+      placeholder: Length of the reverb decay.
+    validations:
+      required: true
+
+  - type: input
+    id: pot1-name
+    attributes:
+      label: Pot 1 — name
+      placeholder: Damping
+    validations:
+      required: true
+  - type: input
+    id: pot1-desc
+    attributes:
+      label: Pot 1 — description
+      placeholder: High-frequency loss in the reverb tail.
+    validations:
+      required: true
+
+  - type: input
+    id: pot2-name
+    attributes:
+      label: Pot 2 — name
+      placeholder: Mix
+    validations:
+      required: true
+  - type: input
+    id: pot2-desc
+    attributes:
+      label: Pot 2 — description
+      placeholder: Blend between dry and wet signal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source file (.spn)
+      description: |
+        Drag and drop your `.spn` file into this field — GitHub will upload it and insert
+        a link automatically. You can also paste the assembly source directly inside a
+        ```` ```spin ```` code block if you'd prefer.
+      placeholder: |
+        Drop your .spn file here, or paste the source inside a code fence.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes for reviewers (optional)
+      description: Anything we should know — suggested settings, known quirks, inspiration, etc.
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have tested this effect on an Easy Spin pedal (or a compatible FV-1 platform) and it sounds the way I intend.
+          required: true
+        - label: I am the original author of this effect, or I have permission to contribute it under the license above.
+          required: true
+        - label: I understand that Audiofab may decline or request changes before merging.
+          required: true

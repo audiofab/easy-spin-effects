@@ -1,0 +1,10 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Easy Spin Web
+    url: https://easy-spin.audiofab.com/
+  - name: Easy Spin product page
+    url: https://audiofab.com/products/easy-spin
+    about: Learn more about the Easy Spin pedal.
+  - name: Audiofab FV-1 VS Code extension
+    url: https://github.com/audiofab/fv1-vscode
+    about: The toolchain used to assemble and program FV-1 .spn files.
