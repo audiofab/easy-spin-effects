@@ -217,12 +217,15 @@ WRA	d2+200,0
 ;-------------------------------------------------
 
 
-;------------ Make reverb output signal --------------
-; Take output taps from start of loop delays
-RDA	d1,1
-RDA	d2,1
-WRAX	rev_out,1		; Save reverb output to register
-;-------------------------------------------------
+;------------ Make stereo reverb output -----------
+RDA   d1, 1
+RDAX  dry, 1
+WRAX  DACL, 0
+RDA   d2, 1
+RDAX  dry, 1
+WRAX  DACR, 0
 
-RDAX	dry,1		; Add dry signal
-WRAX	DACL,0
+; rev_out (used for shimmer feedback) still wants mono:
+RDA   d1, 0.5
+RDA   d2, 0.5
+WRAX  rev_out, 0
